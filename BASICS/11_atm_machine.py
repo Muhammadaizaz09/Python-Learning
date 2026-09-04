@@ -1,3 +1,5 @@
+import datetime
+
 balance = 50000
 pin = int(input("Enter your pin: "))
 
@@ -30,7 +32,7 @@ if pin == 1234:
     print("Invalid account type")
 else:
   print("Incorrect pin")
-     
 
+print(datetime.datetime.now().strftime("%d,%B,%Y,%H:%M:%S"))
  
     
